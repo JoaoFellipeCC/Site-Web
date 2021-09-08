@@ -1,0 +1,52 @@
+@font-face{
+    font-family:'Rokkitt';
+    src: url('fontes/Rokkitt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ;
+    src: url('fontes/Vidaloka-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+body{
+    background-color: #F2F2F2;
+}
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    font-family: 'Rokkitt';
+    color: #555954;
+    font-size: 1.5em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.navegação{
+    display: flex;
+}
+
+hr{
+    display: block;
+    height: 10px;
+    border: 0px;
+    border-top: 2px solid #5ebfbf;
+    margin: -2em 0;
+    padding: 0;
+}
+
+    
