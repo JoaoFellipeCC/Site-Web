@@ -6,9 +6,10 @@
 }
 
 @font-face {
-    font-family: ;
+    font-family: 'Vidaloka';
     src: url('fontes/Vidaloka-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
 }
 body{
     background-color: #F2F2F2;
@@ -31,22 +32,33 @@ ul{
 
 .header{
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
+    padding: 10px 40px;
     align-items: center;
+
 }
 
 .navegação{
     display: flex;
+    flex-wrap: wrap;
 }
 
-hr{
-    display: block;
-    height: 10px;
-    border: 0px;
-    border-top: 2px solid #5ebfbf;
-    margin: -2em 0;
-    padding: 0;
+.navegação li a{
+    margin: 0em 4em;
+    padding: 10px;
+
 }
 
-    
+.navegação li a{
+    color: #555954;
+}
+.navegação li a:hover{
+    color: #3F858C;
+}
+
+.Linha-cabeçalho{
+    border: 1px solid #5ebfbf;
+    width: 95%;
+    margin-top: -1em;
+}
+
