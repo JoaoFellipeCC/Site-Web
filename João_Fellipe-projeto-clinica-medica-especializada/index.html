@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <header id="header-home">
+    <header id="header">
             <a href=""><img src="imagens/Logo-Clinica-Coqueiro-cabeçalho1.png" alt="Logo cabeçalho"></a>
         <nav>
             <ul class="navegação">
@@ -22,17 +22,37 @@
         </nav>
     </header>
     <hr class="Linha-cabeçalho">
+
     <main>
         <section id="Texto-home">
             <p>Há 15 anos no mercado e atualmente entre as maiores clinicas epecializadas do Brasil, a Clinica Coqueiro, está preparada para atender suas necessidades e ajuda-lo a alcançar seus objetivos.</p>
         </section>
             <hr class="Linha-vertical">
-        <section id="Formulario">
+        <section id="formulario">
             <h1>Agende sua consulta</h1>
-        </section>
+            <form action="http://www.thiagomiranda.net/formulario.php" method="POST">
+                <fieldset>
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="campo">   
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="campo">                       
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                    </div>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </section> 
+        <br>
         
     </main>
-    
+    <footer id="footer">
+        <div id="footer-imagem">
+            <a href=""><img src="imagens/Logo-Clinica-Coqueiro-rodapé1.png" alt="Logo Rodapé"></a>
+        </div>
+    </footer>
 </body>
 </html>
 
