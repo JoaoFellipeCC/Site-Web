@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="shortcut icon" href="icones/Favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/home.css">
     
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header id="header">
-            <a href=""><img src="imagens/Logo-Clinica-Coqueiro-cabeçalho1.png" alt="Logo cabeçalho"></a>
+            <a href="index.html" target="_self"><img src="imagens/Logo-Clinica-Coqueiro-cabeçalho1.png" alt="Logo cabeçalho"></a>
         <nav>
             <ul class="navegação">
                 <li><a href="">Home</a></li>
@@ -22,32 +23,47 @@
         </nav>
     </header>
     <hr class="Linha-cabeçalho">
-
+    
+    <!-- Area texto-formulario -->
     <main>
-        <section id="Texto-home">
-            <p>Há 15 anos no mercado e atualmente entre as maiores clinicas epecializadas do Brasil, a Clinica Coqueiro, está preparada para atender suas necessidades e ajuda-lo a alcançar seus objetivos.</p>
-        </section>
-            <hr class="Linha-vertical">
-        <section id="formulario">
-            <h1>Agende sua consulta</h1>
-            <form action="http://www.thiagomiranda.net/formulario.php" method="POST">
-                <fieldset>
-                    <div class="campo">
-                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
-                    </div>
-                    <div class="campo">   
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                    </div>
-                    <div class="campo">                       
-                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
-                    </div>
-                </fieldset>
-                <button type="submit">Enviar</button>
-            </form>
-        </section> 
+        <div id="home-superior">
+            <section id="Texto-home">
+                <p>Há 15 anos no mercado e atualmente entre as maiores clinicas epecializadas do Brasil, a Clinica Coqueiro, está preparada para atender suas necessidades e ajuda-lo a alcançar seus objetivos.</p>
+            </section>
+                <hr class="Linha-vertical">
+            <section id="formulario">
+                <h1>Agende sua consulta</h1>
+                <form action="http://www.thiagomiranda.net/formulario.php" method="POST">
+                    <fieldset>
+                        <div class="campo">
+                            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                        </div>
+                        <div class="campo">   
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="campo">                       
+                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section> 
+        </div>
         <br>
-        
+        <!--Area imagens-->
+        <section id="area-imagens">
+            <div id="home-img1">
+                <img src="imagens/Home imagem 1.jpg" alt="Medico em cirurgia"> 
+            </div>
+            <div id="home-img2">
+                <img src="imagens/Home imagem 2.jpg" alt="Medica em cirurgia"> 
+            </div>
+            <div id="home-img3">
+                <img src="imagens/Home-imagem3.jpg" alt="Medico colocando luvas cirurgicas">
+            </div>
+        </section>
     </main>
+    <!-- Rodapé -->
     <footer id="footer">
         <div id="footer-imagem">
             <a href=""><img src="imagens/Logo-Clinica-Coqueiro-rodapé1.png" alt="Logo Rodapé"></a>

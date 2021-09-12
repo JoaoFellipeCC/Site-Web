@@ -61,13 +61,14 @@ ul{
 }
 
 main{
-    display: flex;
-    border: 1px solid blue;
     margin: 72px 148px;
 }
 
+#home-superior{
+    display: flex;
+}
+
 #Texto-home{
-    border: 1px solid purple;
     box-sizing: border-box;
     width: 45%;
     height: 300px;
@@ -83,12 +84,11 @@ main{
 .Linha-vertical{
     border: 1px solid #5ebfbf;
     height: 120px;
-    margin-top: em;
+    margin-top: 5.5em;
 }
 
 
 #formulario{
-    border: 1px solid blue;
     box-sizing: border-box;
     width: 45%;
     height: 300px;
@@ -110,7 +110,7 @@ main{
 }
 
 #formulario input{
-    width: 60%;
+    width: 75%;
     height: 70%;
     border: 3px solid #3F858C;
 }
@@ -123,11 +123,13 @@ main{
     font-size: 22px;
     color: #F2F2F2;
     border: none;
+    margin: 0.5em;
 }
 
 .campo{
-    width:100%;
+    width: 100%;
     height: 40px;
+    border-top: 1em solid #f2f2f2;
 }
 
 #nome::placeholder{
@@ -150,11 +152,20 @@ main{
 
 #area-imagens{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#area-imagens img:hover{
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
 
 #footer{
     width: 100%;
-    height: 150px;
+    height: 100%;
     background: #2B3840;
 }
 
