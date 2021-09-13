@@ -66,11 +66,18 @@ main{
     margin: 72px 148px;
 }
 
-#conteudo-superior{
-    display: flex;
+main img:hover{
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);    
 }
 
-#Texto-home{
+#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#texto-sobre1{
     box-sizing: border-box;
     width: 550px;
     height: 300px;
@@ -82,94 +89,27 @@ main{
     display: block;
 }
 
+#texto-sobre2{
+    box-sizing: border-box;
+    width: 550px;
+    height: 300px;
+    font-family: 'Vidaloka';
+    text-align: justify;
+    font-size: 26px;
+    line-height: 1.5em;
+    color: #555954;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+}
+
 .Linha-vertical{
     border: 1px solid #5ebfbf;
     height: 120px;
     margin-top: 5.5em;
 }
 
-
-#formulario{
-    box-sizing: border-box;
-    width: 550px;
-    height: 300px;
-    text-align: center;
-}
-
-#formulario h1{
-    font-family: 'Rokkitt';
-    color: #3F858C;
-    margin-top: 1px;
-    font-size: 28px;
-}
-
-#formulario fieldset{
-    text-decoration: none;
-    padding: 0px;
-    margin: 0px;
-    border: none;
-}
-
-#formulario input{
-    width: 75%;
-    height: 70%;
-    border: 3px solid #3F858C;
-}
-
-#formulario button{
-    width: 100px;
-    height: 30px;
-    background-color: #3F858C;
-    font-family: 'Rokkitt';
-    font-size: 22px;
-    color: #F2F2F2;
-    border: none;
-    margin: 0.5em;
-}
-
-.campo{
-    width: 100%;
-    height: 40px;
-    border-top: 1em solid #f2f2f2;
-}
-
-#nome::placeholder{
-    font-family: 'Rokkitt';
-    font-size: 16px;
-    color: #555954;
-}
-
-#email::placeholder{
-    font-family: 'Rokkitt';
-    font-size: 16px;
-    color: #555954;
-}
-
-#telefone::placeholder{
-    font-family: 'Rokkitt';
-    font-size: 16px;
-    color: #555954;
-}
-
-#area-imagens{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#area-imagens img{
-    max-width: 100%;
-    display: block;
-}
-
-#area-imagens img:hover{
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
-}
-
-
+/*Rodapé*/
 #footer{
     width: 100%;
     height: 100%;
