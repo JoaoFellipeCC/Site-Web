@@ -81,6 +81,37 @@ main{
     border: 3px solid #5EBFBF;
 }
 
+.titulo-conteiner{
+    margin: 0 auto;
+    background-color: #5EBFBF;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 36px;
+    text-align: center;
+    color: #555954;
+    font-family: 'Rokkitt';
+}
+
+.texto-especialidades{
+    height: 150px;
+    text-align: justify;
+    font-size: 22px;
+    padding: 0 3px;
+}
+
+.divisão-responsavel{
+    border: 1px solid #5EBFBF;
+    width: 95%;
+}
+
+.responsavel{
+    font-family: 'Rokkitt';
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
 /*Rodapé*/
 #footer{
     width: 100%;
