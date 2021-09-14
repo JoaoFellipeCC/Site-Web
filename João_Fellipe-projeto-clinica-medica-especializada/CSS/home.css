@@ -161,6 +161,7 @@ main{
 #area-imagens img{
     max-width: 100%;
     display: block;
+    border: 2px solid #3F858C;
 }
 
 #area-imagens img:hover{
