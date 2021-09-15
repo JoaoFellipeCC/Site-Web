@@ -70,7 +70,7 @@ main{
 #contato{
     display: flex;
     flex-wrap: wrap;
-    gap: 5em;
+    gap: 6.5em;
     justify-content: space-between;
 }
 
@@ -78,13 +78,13 @@ main{
     background-color: #3F858C;
     display: flex;
     width: 550px;
-    height: 100px;
+    height: 125px;
 }
 
 .contato-container img{
     width: 64px;
     height: 64px;
-    margin: 1.2em;
+    margin: 2em;
 }
 
 .texto-contato{
@@ -94,7 +94,6 @@ main{
     font-size: 27px;
     color: #F2F2F2;
     text-align: center;
-    margin-top: -0.5em;
 }
 
 .texto-contato h1{
