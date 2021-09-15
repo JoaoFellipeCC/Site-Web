@@ -1,0 +1,112 @@
+/*Geral*/
+@font-face{
+    font-family:'Rokkitt';
+    src: url('../fontes/Rokkitt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vidaloka' ;
+    src: url('../fontes/Vidaloka-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Rokkitt';
+    color: #555954;
+    font-size: 1.5em;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    align-items: center;
+
+}
+
+.navegação{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegação li a{
+    margin: 0em 4em;
+    padding: 10px;
+
+}
+
+.navegação li a{
+    text-decoration: none;
+    color: #555954;
+}
+.navegação li a:hover{
+    color: #3F858C;
+}
+
+.Linha-cabeçalho{
+    border: 1px solid #5ebfbf;
+    width: 95%;
+    margin-top: -1em;
+}
+
+main{
+    margin: 72px 148px;
+}
+
+#contato{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: space-between;
+}
+
+.contato-container{
+    background-color: #3F858C;
+    display: flex;
+    width: 550px;
+    height: 100px;
+}
+
+.contato-container img{
+    width: 64px;
+    height: 64px;
+    margin: 1.2em;
+}
+
+.texto-contato{
+    width: 100%;
+    height: 100%;
+    font-family: 'Vidaloka';
+    font-size: 27px;
+    color: #F2F2F2;
+    text-align: center;
+    margin-top: -0.5em;
+}
+
+.texto-contato h1{
+    font-size: 27px;
+}
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background: #2B3840;
+}
+
+#footer-imagem{
+    text-align: center;
+}
