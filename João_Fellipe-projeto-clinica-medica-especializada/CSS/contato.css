@@ -65,12 +65,13 @@ ul{
 
 main{
     margin: 72px 148px;
+    padding: 2em 0em;
 }
 
 #contato{
     display: flex;
     flex-wrap: wrap;
-    gap: 6.5em;
+    gap: 9em;
     justify-content: space-between;
 }
 
@@ -108,4 +109,5 @@ main{
 
 #footer-imagem{
     text-align: center;
+    padding: 0.8em;
 }

@@ -64,10 +64,12 @@ ul{
 
 main{
     margin: 72px 148px;
+    padding: 2em 0em;
 }
 
 .imagens-sobre img{
     border: 2px solid #3F858C;
+    transition: all 0.2s;
 }
 
 .imagens-sobre img:hover{
@@ -123,4 +125,5 @@ main{
 
 #footer-imagem{
     text-align: center;
+    padding: 0.8em;
 }

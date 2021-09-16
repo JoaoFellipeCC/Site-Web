@@ -64,6 +64,7 @@ ul{
 
 main{
     margin: 72px 148px;
+    padding: 2em 0em;
 }
 
 #conteudo-superior{
@@ -159,6 +160,7 @@ main{
 }
 
 #area-imagens img{
+    transition: all 0.2s;
     max-width: 100%;
     display: block;
     border: 2px solid #3F858C;
@@ -179,4 +181,5 @@ main{
 
 #footer-imagem{
     text-align: center;
+    padding: 0.8em;
 }
