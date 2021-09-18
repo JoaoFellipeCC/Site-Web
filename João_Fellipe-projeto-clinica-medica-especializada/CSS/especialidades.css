@@ -13,20 +13,35 @@
     font-style: normal;
 }
 
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco:#F2F2F2;
+    --cinza:#555954;
+    --azul-claro:#5EBFBF;
+    --azul-medio:#3F858C;
+    --azul-escuro:#2B3840;
+}
+
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    background-color: #F2F2F2;
-    margin: 0px;
-    padding: 0px;
+    background-color: var(--branco);
 }
 
 ul{
     list-style: none;
     font-family: 'Rokkitt';
-    color: #555954;
+    color: var(--cinza);
     font-size: 1.5em;
 }
 
@@ -51,14 +66,14 @@ ul{
 
 .navegação li a{
     text-decoration: none;
-    color: #555954;
+    color: var(--cinza);
 }
 .navegação li a:hover{
-    color: #3F858C;
+    color: var(--azul-medio);
 }
 
 .Linha-cabeçalho{
-    border: 1px solid #5ebfbf;
+    border: 1px solid var(--azul-claro);
     width: 95%;
     margin-top: -1em;
 }
@@ -78,18 +93,18 @@ main{
 .conteiner-especialidades{
     width: 550px;
     height: 300px;
-    border: 3px solid #5EBFBF;
+    border: 3px solid var(--azul-claro);
     
 }
 
 .titulo-conteiner{
     margin: 0 auto;
-    background-color: #5EBFBF;
+    background-color: var(--azul-claro);
     width: 100%;
     padding: 10px 0px;
     font-size: 36px;
     text-align: center;
-    color: #555954;
+    color: var(--cinza);
     font-family: 'Rokkitt';
 }
 
@@ -98,12 +113,12 @@ main{
     text-align: justify;
     font-size: 21px;
     padding: 0 3px;
-    color: #555954;
+    color: var(--cinza);
     font-family: 'Vidaloka';
 }
 
 .divisão-responsavel{
-    border: 1px solid #5EBFBF;
+    border: 1px solid var(--azul-claro);
     width: 95%;
 }
 
@@ -111,21 +126,21 @@ main{
     font-size: 24px;
     text-align: center;
     margin: 0 auto;
-    color: #555954;
+    color: var(--cinza);
     font-family: 'Rokkitt';
 
 }
 
 .responsavel a{
     text-decoration: none;
-    color: #555954;
+    color: var(--cinza);
 }
 
 /*Rodapé*/
 #footer{
     width: 100%;
     height: 100%;
-    background: #2B3840;
+    background: var(--azul-escuro);
 }
 
 #footer-imagem{

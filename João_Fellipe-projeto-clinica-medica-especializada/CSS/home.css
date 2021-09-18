@@ -12,20 +12,34 @@
     font-style: normal;
 }
 
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco:#F2F2F2;
+    --cinza:#555954;
+    --azul-claro:#5EBFBF;
+    --azul-medio:#3F858C;
+    --azul-escuro:#2B3840;
+}
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    background-color: #F2F2F2;
-    margin: 0px;
-    padding: 0px;
+    background-color: var(--branco);
 }
 
 ul{
     list-style: none;
     font-family: 'Rokkitt';
-    color: #555954;
+    color: var(--cinza);
     font-size: 1.5em;
 }
 
@@ -50,14 +64,14 @@ ul{
 
 .navegação li a{
     text-decoration: none;
-    color: #555954;
+    color: var(--cinza);
 }
 .navegação li a:hover{
-    color: #3F858C;
+    color: var(--azul-medio);
 }
 
 .Linha-cabeçalho{
-    border: 1px solid #5ebfbf;
+    border: 1px solid var(--azul-claro);
     width: 95%;
     margin-top: -1em;
 }
@@ -79,19 +93,18 @@ main{
     text-align: justify;
     font-size: 26px;
     line-height: 1.5em;
-    color: #555954;
+    color: var(--cinza);
     display: block;
 }
 
 .Linha-vertical{
-    border: 1px solid #5ebfbf;
+    border: 1px solid var(--azul-claro);
     height: 120px;
     margin-top: 5.5em;
 }
 
 
 #formulario{
-    box-sizing: border-box;
     width: 550px;
     height: 300px;
     text-align: center;
@@ -99,7 +112,7 @@ main{
 
 #formulario h1{
     font-family: 'Rokkitt';
-    color: #3F858C;
+    color: var(--azul-medio);
     margin-top: 1px;
     font-size: 28px;
 }
@@ -114,16 +127,16 @@ main{
 #formulario input{
     width: 75%;
     height: 70%;
-    border: 3px solid #3F858C;
+    border: 3px solid var(--azul-medio);
 }
 
 #formulario button{
     width: 100px;
     height: 30px;
-    background-color: #3F858C;
+    background-color: var(--azul-medio);
     font-family: 'Rokkitt';
     font-size: 22px;
-    color: #F2F2F2;
+    color: var(--branco);
     border: none;
     margin: 0.5em;
 }
@@ -131,25 +144,25 @@ main{
 .campo{
     width: 100%;
     height: 40px;
-    border-top: 1em solid #f2f2f2;
+    border-top: 1em solid var(--branco);
 }
 
 #nome::placeholder{
     font-family: 'Rokkitt';
     font-size: 16px;
-    color: #555954;
+    color: var(--cinza);
 }
 
 #email::placeholder{
     font-family: 'Rokkitt';
     font-size: 16px;
-    color: #555954;
+    color: var(--cinza);
 }
 
 #telefone::placeholder{
     font-family: 'Rokkitt';
     font-size: 16px;
-    color: #555954;
+    color: var(--cinza);
 }
 
 #area-imagens{
@@ -163,7 +176,7 @@ main{
     transition: all 0.2s;
     max-width: 100%;
     display: block;
-    border: 2px solid #3F858C;
+    border: 2px solid var(--azul-medio);
 }
 
 #area-imagens img:hover{
@@ -176,7 +189,7 @@ main{
 #footer{
     width: 100%;
     height: 100%;
-    background: #2B3840;
+    background: var(--azul-escuro);
 }
 
 #footer-imagem{
