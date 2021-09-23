@@ -42,24 +42,26 @@ ul{
     justify-content: space-around;
     padding: 10px 40px;
     align-items: center;
+}
 
+#header img{
+    margin-left: 2em;
 }
 
 .navegação{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 65vw;
+    justify-content: space-around;
 }
 
 .navegação li a{
-    margin: 0em 4em;
-    padding: 10px;
-
-}
-
-.navegação li a{
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
     color: var(--cinza);
 }
+
 .navegação li a:hover{
     color: var(--azul-medio);
 }

@@ -45,14 +45,20 @@ ul{
     align-items: center;
 }
 
+#header img{
+    margin-left: 2em;
+}
+
 .navegação{
     display: flex;
     flex-wrap: wrap;
+    width: 65vw;
+    justify-content: space-around;
 }
 
 .navegação li a{
-    margin: 0em 4em;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
     color: var(--cinza);
 }
@@ -75,15 +81,17 @@ main{
 #contato{
     display: flex;
     flex-wrap: wrap;
-    gap: 9em;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .contato-container{
     background-color: var(--azul-medio);
     display: flex;
-    width: 550px;
+    width: 45%;
+    min-width: 400px;
     height: 125px;
+    margin-bottom: 7em;
 }
 
 .contato-container img{

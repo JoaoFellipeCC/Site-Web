@@ -42,23 +42,24 @@ ul{
     justify-content: space-around;
     padding: 10px 40px;
     align-items: center;
+}
 
+#header img{
+    margin-left: 2em;
 }
 
 .navegação{
     display: flex;
     flex-wrap: wrap;
-}
-
-.navegação li a{
-    margin: 0em 4em;
-    padding: 10px;
+    width: 65vw;
+    justify-content: space-around;
 }
 
 .navegação li a{
     text-decoration: none;
     color: var(--cinza);
 }
+
 .navegação li a:hover{
     color: var(--azul-medio);
 }
@@ -76,15 +77,18 @@ main{
 
 #conteudo-superior{
     display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #Texto-home{
     box-sizing: border-box;
-    width: 550px;
+    width: 49%;
     height: 300px;
     font-family: 'Vidaloka';
     text-align: justify;
-    font-size: 26px;
+    font-size: clamp(16px, 1.95vw, 38px);
     line-height: 1.5em;
     color: var(--cinza);
     display: block;
@@ -93,13 +97,12 @@ main{
 .Linha-vertical{
     border: 1px solid var(--azul-claro);
     height: 120px;
-    margin-top: 5.5em;
+    margin: 5.5em 4em;
 }
-
 
 #formulario{
     box-sizing: border-box;
-    width: 550px;
+    width: 49%;
     height: 300px;
     text-align: center;
 }
@@ -108,7 +111,7 @@ main{
     font-family: 'Rokkitt';
     color: var(--azul-medio);
     margin-top: 1px;
-    font-size: 28px;
+    font-size: clamp(19px, 1.8vw, 37px);
 }
 
 #formulario fieldset{
@@ -119,17 +122,18 @@ main{
 }
 
 #formulario input{
-    width: 75%;
+    width: 85%;
+    max-width: 630px;
     height: 70%;
     border: 3px solid var(--azul-medio);
 }
 
 #formulario button{
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 35px;
     background-color: var(--azul-medio);
     font-family: 'Rokkitt';
-    font-size: 22px;
+    font-size: clamp(16px, 1.5vw, 28px);
     color: var(--branco);
     border: none;
     margin: 0.5em;
@@ -143,33 +147,34 @@ main{
 
 #nome::placeholder{
     font-family: 'Rokkitt';
-    font-size: 16px;
+    font-size: clamp(14px, 1.3vw, 24px);
     color: var(--cinza);
 }
 
 #email::placeholder{
     font-family: 'Rokkitt';
-    font-size: 16px;
+    font-size: clamp(14px, 1.3vw, 24px);
     color: var(--cinza);
 }
 
 #telefone::placeholder{
     font-family: 'Rokkitt';
-    font-size: 16px;
+    font-size: clamp(14px, 1.3vw, 24px);
     color: var(--cinza);
 }
 
 #area-imagens{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
+    margin-top: 2em;
 }
 
 #area-imagens img{
     transition: all 0.2s;
     max-width: 100%;
-    display: block;
     border: 2px solid var(--azul-medio);
 }
 
