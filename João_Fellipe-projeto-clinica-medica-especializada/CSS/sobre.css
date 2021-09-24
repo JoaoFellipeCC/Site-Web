@@ -45,7 +45,7 @@ ul{
 }
 
 #header img{
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .navegação{
@@ -80,6 +80,7 @@ main{
 .imagens-sobre img{
     border: 2px solid var(--azul-medio);
     transition: all 0.2s;
+    border: 2px solid black;
 }
 
 .imagens-sobre img:hover{
@@ -92,6 +93,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
+    justify-content: space-between;
+    border: 2px solid black;
 }
 
 #texto-sobre1{
@@ -104,6 +107,7 @@ main{
     line-height: 1.5em;
     color: var(--cinza);
     display: block;
+    border: 2px solid black;
 }
 
 #texto-sobre2{
@@ -118,12 +122,13 @@ main{
     padding-top: 1em;
     padding-bottom: 1em;
     display: block;
+    border: 2px solid black;
 }
 
 .Linha-vertical{
     border: 1px solid var(--azul-claro);
     height: 120px;
-    margin-top: 5.5em;
+    margin: 5.5em 1em;
 }
 
 /*Rodapé*/
