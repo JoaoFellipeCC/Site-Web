@@ -75,42 +75,13 @@ ul{
 main{
     margin: 72px 148px;
     padding: 2em 0em;
-}
-
-.imagens-sobre img{
-    border: 2px solid var(--azul-medio);
-    transition: all 0.2s;
-    border: 2px solid black;
-}
-
-.imagens-sobre img:hover{
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);    
-}
-
-#conteudo{
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
     justify-content: space-between;
-    border: 2px solid black;
 }
 
-#texto-sobre1{
-    box-sizing: border-box;
-    width: 550px;
-    height: 300px;
-    font-family: 'Vidaloka';
-    text-align: justify;
-    font-size: 26px;
-    line-height: 1.5em;
-    color: var(--cinza);
-    display: block;
-    border: 2px solid black;
-}
-
-#texto-sobre2{
+.texto{
     box-sizing: border-box;
     width: 550px;
     height: 300px;
@@ -122,13 +93,23 @@ main{
     padding-top: 1em;
     padding-bottom: 1em;
     display: block;
-    border: 2px solid black;
 }
 
 .Linha-vertical{
     border: 1px solid var(--azul-claro);
     height: 120px;
     margin: 5.5em 1em;
+}
+
+.imagens-sobre img{
+    border: 2px solid var(--azul-medio);
+    transition: all 0.2s;
+}
+
+.imagens-sobre img:hover{
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);    
 }
 
 /*Rodapé*/

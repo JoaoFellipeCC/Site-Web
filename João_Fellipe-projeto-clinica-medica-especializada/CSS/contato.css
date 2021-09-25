@@ -76,22 +76,18 @@ ul{
 main{
     margin: 72px 148px;
     padding: 2em 0em;
-}
-
-#contato{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2em;
+    gap: 5vw;
 }
 
 .contato-container{
     background-color: var(--azul-medio);
     display: flex;
     width: 45%;
-    min-width: 400px;
+    min-width: 200px;
     height: 125px;
-    margin-bottom: 7em;
 }
 
 .contato-container img{
@@ -104,13 +100,16 @@ main{
     width: 100%;
     height: 100%;
     font-family: 'Vidaloka';
-    font-size: 27px;
+    font-size: clamp(15px, 1.7vw, 40px);
     color: var(--branco);
     text-align: center;
 }
 
 .texto-contato h1{
-    font-size: 27px;
+    margin: 0 auto;
+    font-size: clamp(25px, 2vw, 45px);
+    width: 100%;
+    height: 30%;
 }
 
 #footer{
