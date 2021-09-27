@@ -142,6 +142,24 @@ main{
     margin: 0.5em;
 }
 
+input[type=text] {
+    font-size: clamp(14px, 1.3vw, 24px);
+    font-family: 'Rokkitt';
+    color: var(--cinza);
+}
+
+input[type=email] {
+    font-size: clamp(14px, 1.3vw, 24px);
+    font-family: 'Rokkitt';
+    color: var(--cinza);
+}
+
+input[type=tel] {
+    font-size: clamp(14px, 1.3vw, 24px);
+    font-family: 'Rokkitt';
+    color: var(--cinza);
+}
+
 .campo{
     width: 100%;
     height: 40px;
