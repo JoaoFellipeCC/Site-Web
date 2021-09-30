@@ -83,27 +83,40 @@ main{
 
 .texto{
     box-sizing: border-box;
-    width: 550px;
+    width: 41%;
+    min-width: 100px;
     height: 300px;
     font-family: 'Vidaloka';
     text-align: justify;
-    font-size: 26px;
+    font-size: clamp(17px, 1.5vw, 36px);
     line-height: 1.5em;
     color: var(--cinza);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    display: block;
+    margin: 0 auto;
 }
 
 .Linha-vertical{
     border: 1px solid var(--azul-claro);
     height: 120px;
-    margin: 5.5em 1em;
+    margin: 5.5em 0em;
+    
+}
+
+.imagens-sobre{
+    display: flex;
+    width: 41%;
+    min-width: 100px;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .imagens-sobre img{
     border: 2px solid var(--azul-medio);
     transition: all 0.2s;
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .imagens-sobre img:hover{
