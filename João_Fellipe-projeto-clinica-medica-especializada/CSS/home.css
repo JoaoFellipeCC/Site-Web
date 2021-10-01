@@ -68,6 +68,7 @@ ul{
     border: 1px solid var(--azul-claro);
     width: 95%;
     margin-top: -1em;
+    background-color: var(--azul-claro);
 }
 
 main{
