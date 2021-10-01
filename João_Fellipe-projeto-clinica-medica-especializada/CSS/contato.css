@@ -131,27 +131,44 @@ main{
 @media screen and (max-width: 748px){
     #header{
         flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     .navegação{
+        flex-wrap: wrap;
         padding: 0;
-    }
-    .navegação li a{
-        text-align: center;
-        margin: 1em;
+        width: 90vw;
+        gap: 1em;
     }
 
     main{
         width: 90%;
         padding: 0px;
         margin: 72px auto;
+        justify-content: center;
     }
 
-    #contato{
-        justify-content: center;
-        gap: 5em;
-    }
     .contato-container{
         width: 80%;
+        height: 100px;
+    }
+
+    .contato-container img{
+        width: 70px;
+        min-width: 45px;
+        height:70px;
+        min-height: 45px;
+        margin: 0.8em;
+    }
+
+    .texto-contato{
+        font-size: clamp(15px, 4vw, 24px);
+    }
+
+    .texto-contato h1{
+        font-size: clamp(20px, 5vw, 30px);
     }
 }
