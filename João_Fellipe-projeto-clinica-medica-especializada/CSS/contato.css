@@ -144,6 +144,10 @@ main{
         gap: 1em;
     }
 
+    .navegação li a{
+        font-size: clamp(14px, 3vw, 22px);
+    }
+
     main{
         width: 90%;
         padding: 0px;
@@ -158,9 +162,9 @@ main{
 
     .contato-container img{
         width: 70px;
-        min-width: 45px;
+        min-width: 40px;
         height:70px;
-        min-height: 45px;
+        min-height: 40px;
         margin: 0.8em;
     }
 

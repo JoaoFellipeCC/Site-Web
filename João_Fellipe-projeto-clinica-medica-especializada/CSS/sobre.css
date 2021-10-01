@@ -153,6 +153,11 @@ main{
         gap: 1em;
     }
 
+    .navegação li a{
+        font-size: clamp(14px, 3vw, 22px);
+    }
+
+
     main{
         width: 90%;
         padding: 0px;
