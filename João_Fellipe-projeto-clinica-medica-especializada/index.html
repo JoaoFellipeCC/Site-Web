@@ -36,13 +36,16 @@
                 <form action="http://www.thiagomiranda.net/formulario.php" method="POST">
                     <fieldset>
                         <div class="campo">
-                            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome:" required>
                         </div>
                         <div class="campo">   
-                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email:" required>
                         </div>
-                        <div class="campo">                       
-                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                        <div class="campo"> 
+                            <label for="telefone">Telefone</label>                      
+                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone:" required>
                         </div>
                     </fieldset>
                     <button type="submit">Enviar</button>
